@@ -5,6 +5,7 @@ import (
 	"bytes"
 	"context"
 	"encoding/hex"
+    "encoding/json"
 	"errors"
 	"fmt"
 	"io"
@@ -130,16 +131,18 @@ func (f *fetcher) fetch(ctx context.Context, layer *claircore.Layer) error {
 		Header:     layer.Headers,
 	}
 	req = req.WithContext(ctx)
+	outo, erro := json.Marshal(req)
 	zlog.Debug(ctx).
-		Str("request", "" + req).
+		Str("request", string(outo)).
 		Msg("built request")
 	resp, err := f.wc.Do(req)
 	if err != nil {
 		return fmt.Errorf("fetcher: request failed: %w", err)
 	}
 	defer resp.Body.Close()
+	outt, errt := json.Marshal(resp)
 	zlog.Debug(ctx).
-		Str("response", "" + resp).
+		Str("response", string(outt)).
 		Msg("got response")
 	switch resp.StatusCode {
 	case http.StatusOK:
