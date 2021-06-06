@@ -127,7 +127,7 @@ func (f *fetcher) fetch(ctx context.Context, layer *claircore.Layer) error {
 		ProtoMinor: 1,
 		Method:     http.MethodGet,
 		URL:        url,
-		Header:     layer.Headers,
+		//Header:     layer.Headers,
 	}
 	req = req.WithContext(ctx)
 	fmt.Printf("fetcher: built request: %s", req)
