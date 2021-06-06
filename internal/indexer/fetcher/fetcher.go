@@ -132,6 +132,9 @@ func (f *fetcher) fetch(ctx context.Context, layer *claircore.Layer) error {
 	}
 	req = req.WithContext(ctx)
 	outo, erro := json.Marshal(req)
+	if erro != nil {
+        panic (erro)
+    }
 	zlog.Debug(ctx).
 		Str("request", string(outo)).
 		Msg("built request")
@@ -141,6 +144,9 @@ func (f *fetcher) fetch(ctx context.Context, layer *claircore.Layer) error {
 	}
 	defer resp.Body.Close()
 	outt, errt := json.Marshal(resp)
+	if errt != nil {
+        panic (errt)
+    }
 	zlog.Debug(ctx).
 		Str("response", string(outt)).
 		Msg("got response")
