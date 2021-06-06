@@ -131,7 +131,7 @@ func (f *fetcher) fetch(ctx context.Context, layer *claircore.Layer) error {
 	}
 	req = req.WithContext(ctx)
 	zlog.Debug(ctx).
-		Str("request", req).
+		Str("request", "" + req).
 		Msg("built request")
 	resp, err := f.wc.Do(req)
 	if err != nil {
@@ -139,12 +139,12 @@ func (f *fetcher) fetch(ctx context.Context, layer *claircore.Layer) error {
 	}
 	defer resp.Body.Close()
 	zlog.Debug(ctx).
-		Str("response", res).
+		Str("response", "" + resp).
 		Msg("got response")
 	switch resp.StatusCode {
 	case http.StatusOK:
 	default:
-		return fmt.Errorf("fetcher: unexpected status code: %d %s (url='%s';req='%s';res='%s')", resp.StatusCode, resp.Status, url, req, res)
+		return fmt.Errorf("fetcher: unexpected status code: %d %s (url='%s';req='%s';resp='%s')", resp.StatusCode, resp.Status, url, req, resp)
 	}
 	tr := io.TeeReader(resp.Body, vh)
 
