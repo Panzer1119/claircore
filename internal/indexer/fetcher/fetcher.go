@@ -131,25 +131,13 @@ func (f *fetcher) fetch(ctx context.Context, layer *claircore.Layer) error {
 		Header:     layer.Headers,
 	}
 	req = req.WithContext(ctx)
-	outo, erro := json.Marshal(req)
-	if erro != nil {
-        panic (erro)
-    }
-	zlog.Debug(ctx).
-		Str("request", string(outo)).
-		Msg("built request")
+	fmt.Printf("fetcher: built request: %s", req)
 	resp, err := f.wc.Do(req)
 	if err != nil {
 		return fmt.Errorf("fetcher: request failed: %w", err)
 	}
 	defer resp.Body.Close()
-	outt, errt := json.Marshal(resp)
-	if errt != nil {
-        panic (errt)
-    }
-	zlog.Debug(ctx).
-		Str("response", string(outt)).
-		Msg("got response")
+	fmt.Printf("fetcher: got response : %s", resp)
 	switch resp.StatusCode {
 	case http.StatusOK:
 	default:
