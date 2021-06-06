@@ -138,7 +138,7 @@ func (f *fetcher) fetch(ctx context.Context, layer *claircore.Layer) error {
 	switch resp.StatusCode {
 	case http.StatusOK:
 	default:
-		return fmt.Errorf("fetcher: unexpected status code: %d %s", resp.StatusCode, resp.Status)
+		return fmt.Errorf("fetcher: unexpected status code: %d %s (url='%s', req='%s')", resp.StatusCode, resp.Status, url, req)
 	}
 	tr := io.TeeReader(resp.Body, vh)
 
