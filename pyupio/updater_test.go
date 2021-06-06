@@ -13,7 +13,7 @@ import (
 
 	"github.com/quay/zlog"
 
-	"github.com/quay/claircore"
+	"github.com/Panzer1119/claircore"
 )
 
 func TestDB(t *testing.T) {

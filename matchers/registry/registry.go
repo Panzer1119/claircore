@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/quay/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore/libvuln/driver"
 )
 
 var pkg = struct {

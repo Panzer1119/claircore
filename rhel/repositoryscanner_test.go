@@ -13,10 +13,10 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/quay/zlog"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/pkg/cpe"
-	"github.com/quay/claircore/rhel/containerapi"
-	"github.com/quay/claircore/rhel/repo2cpe"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/pkg/cpe"
+	"github.com/Panzer1119/claircore/rhel/containerapi"
+	"github.com/Panzer1119/claircore/rhel/repo2cpe"
 )
 
 func TestRepositoryScanner(t *testing.T) {

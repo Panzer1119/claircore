@@ -4,8 +4,8 @@ import (
 	"context"
 
 	pep440 "github.com/aquasecurity/go-pep440-version"
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/libvuln/driver"
 )
 
 var (

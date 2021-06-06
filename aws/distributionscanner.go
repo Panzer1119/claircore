@@ -10,8 +10,8 @@ import (
 	"go.opentelemetry.io/otel/baggage"
 	"go.opentelemetry.io/otel/label"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/internal/indexer"
 )
 
 // AWS Linux keeps a consistent os-release file between

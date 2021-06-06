@@ -10,8 +10,8 @@ import (
 	"github.com/jackc/pgx/v4/stdlib"
 	"github.com/remind101/migrate"
 
-	"github.com/quay/claircore/libvuln/migrations"
-	"github.com/quay/claircore/test/integration"
+	"github.com/Panzer1119/claircore/libvuln/migrations"
+	"github.com/Panzer1119/claircore/test/integration"
 )
 
 func TestDB(ctx context.Context, t testing.TB) *pgxpool.Pool {

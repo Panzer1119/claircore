@@ -3,7 +3,7 @@ package indexer
 import (
 	"context"
 
-	"github.com/quay/claircore"
+	"github.com/Panzer1119/claircore"
 )
 
 // Store is an interface for dealing with objects libindex needs to persist.

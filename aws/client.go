@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/otel/baggage"
 	"go.opentelemetry.io/otel/label"
 
-	"github.com/quay/claircore/pkg/tmp"
+	"github.com/Panzer1119/claircore/pkg/tmp"
 )
 
 const (

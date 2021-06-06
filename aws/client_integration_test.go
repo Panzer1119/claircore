@@ -8,7 +8,7 @@ import (
 
 	"github.com/quay/zlog"
 
-	"github.com/quay/claircore/test/integration"
+	"github.com/Panzer1119/claircore/test/integration"
 )
 
 func TestClientIntegrationGetMirrors(t *testing.T) {

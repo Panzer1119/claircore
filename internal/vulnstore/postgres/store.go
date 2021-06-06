@@ -9,9 +9,9 @@ import (
 	"go.opentelemetry.io/otel/baggage"
 	"go.opentelemetry.io/otel/label"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/internal/vulnstore"
-	"github.com/quay/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/internal/vulnstore"
+	"github.com/Panzer1119/claircore/libvuln/driver"
 )
 
 // store implements all interfaces in the vulnstore package

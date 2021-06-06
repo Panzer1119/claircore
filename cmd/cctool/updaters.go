@@ -12,10 +12,10 @@ import (
 	"github.com/quay/zlog"
 	"gopkg.in/yaml.v3"
 
-	"github.com/quay/claircore/libvuln"
-	"github.com/quay/claircore/libvuln/jsonblob"
-	"github.com/quay/claircore/libvuln/updates"
-	_ "github.com/quay/claircore/updater/defaults"
+	"github.com/Panzer1119/claircore/libvuln"
+	"github.com/Panzer1119/claircore/libvuln/jsonblob"
+	"github.com/Panzer1119/claircore/libvuln/updates"
+	_ "github.com/Panzer1119/claircore/updater/defaults"
 )
 
 func RunUpdaters(cmd context.Context, cfg *commonConfig, args []string) error {

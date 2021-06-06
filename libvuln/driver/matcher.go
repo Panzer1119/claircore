@@ -3,7 +3,7 @@ package driver
 import (
 	"context"
 
-	"github.com/quay/claircore"
+	"github.com/Panzer1119/claircore"
 )
 
 // MatchConstraint explains to the caller how a search for a package's vulnerability should

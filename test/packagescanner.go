@@ -8,9 +8,9 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/quay/zlog"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/internal/indexer"
-	"github.com/quay/claircore/test/fetch"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore/test/fetch"
 )
 
 // ScannerTestcase can be used for testing layers found in the wild against a

@@ -8,7 +8,7 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/quay/zlog"
 
-	"github.com/quay/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore/internal/indexer"
 )
 
 func TestIndexManifest(t *testing.T) {

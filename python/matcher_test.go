@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/libvuln/driver"
-	"github.com/quay/claircore/python"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore/python"
 )
 
 type matcherTestcase struct {

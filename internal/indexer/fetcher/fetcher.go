@@ -22,8 +22,8 @@ import (
 	"go.opentelemetry.io/otel/label"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/internal/indexer"
 )
 
 // Fetcher is a private struct which implements indexer.Fetcher.

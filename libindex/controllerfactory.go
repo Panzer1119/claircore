@@ -7,11 +7,11 @@ import (
 
 	"github.com/jackc/pgx/v4/pgxpool"
 
-	"github.com/quay/claircore/internal/indexer"
-	"github.com/quay/claircore/internal/indexer/controller"
-	"github.com/quay/claircore/internal/indexer/fetcher"
-	"github.com/quay/claircore/internal/indexer/layerscanner"
-	"github.com/quay/claircore/pkg/distlock/postgres"
+	"github.com/Panzer1119/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore/internal/indexer/controller"
+	"github.com/Panzer1119/claircore/internal/indexer/fetcher"
+	"github.com/Panzer1119/claircore/internal/indexer/layerscanner"
+	"github.com/Panzer1119/claircore/pkg/distlock/postgres"
 )
 
 // ControllerFactory is a factory method to return a Controller during libindex runtime.

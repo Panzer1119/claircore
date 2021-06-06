@@ -10,7 +10,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/quay/zlog"
 
-	"github.com/quay/claircore"
+	"github.com/Panzer1119/claircore"
 )
 
 var V3_10_community_truncated_vulns = []*claircore.Vulnerability{

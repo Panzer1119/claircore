@@ -11,8 +11,8 @@ import (
 	"go.opentelemetry.io/otel/baggage"
 	"go.opentelemetry.io/otel/label"
 
-	"github.com/quay/claircore/libvuln/driver"
-	"github.com/quay/claircore/rhel/pulp"
+	"github.com/Panzer1119/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore/rhel/pulp"
 )
 
 var rhelReleases = []Release{

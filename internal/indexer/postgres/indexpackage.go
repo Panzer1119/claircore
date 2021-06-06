@@ -11,9 +11,9 @@ import (
 	"go.opentelemetry.io/otel/baggage"
 	"go.opentelemetry.io/otel/label"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/internal/indexer"
-	"github.com/quay/claircore/pkg/microbatch"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore/pkg/microbatch"
 )
 
 var zeroPackage = claircore.Package{}

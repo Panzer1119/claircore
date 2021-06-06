@@ -12,8 +12,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/libvuln/driver"
 )
 
 var (

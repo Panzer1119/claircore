@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/test"
-	"github.com/quay/claircore/test/integration"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/test"
+	"github.com/Panzer1119/claircore/test/integration"
 )
 
 var goldenLayers []test.LayerSpec

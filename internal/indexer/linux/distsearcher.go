@@ -3,8 +3,8 @@ package linux
 import (
 	"fmt"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/internal/indexer"
 )
 
 // DistSearcher uses ClairCore's heuristic to determine a distribution for

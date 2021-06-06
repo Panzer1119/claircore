@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/quay/claircore"
+	"github.com/Panzer1119/claircore"
 )
 
 // this file implements any Valuer Scanner methods necessary to

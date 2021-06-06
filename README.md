@@ -1,4 +1,4 @@
-![](https://github.com/quay/claircore/workflows/CI/badge.svg)
+![](https://github.com/Panzer1119/claircore/workflows/CI/badge.svg)
 # ClairCore
 
 ClairCore provides a set of go modules which handle scanning container layers for installed packages and reporting any discovered vulnerabilities.  

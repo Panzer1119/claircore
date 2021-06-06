@@ -3,8 +3,8 @@ package claircore_test
 import (
 	"testing"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/test"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/test"
 )
 
 // TestAffectedManifestsAddAndSort confirms adding to and sorting

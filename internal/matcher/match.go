@@ -5,9 +5,9 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/internal/vulnstore"
-	"github.com/quay/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/internal/vulnstore"
+	"github.com/Panzer1119/claircore/libvuln/driver"
 )
 
 // Match receives an IndexReport and creates a VulnerabilityReport containing matched vulnerabilities

@@ -10,8 +10,8 @@ import (
 	"go.opentelemetry.io/otel/baggage"
 	"go.opentelemetry.io/otel/label"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/internal/indexer"
 )
 
 // Suse Enterprise Server has service pack releases however their security database files are bundled together

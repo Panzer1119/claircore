@@ -11,8 +11,8 @@ import (
 	"go.opentelemetry.io/otel/baggage"
 	"go.opentelemetry.io/otel/label"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/pkg/cpe"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/pkg/cpe"
 )
 
 // RPMInfo holds information for extracting Vulnerabilities from an OVAL

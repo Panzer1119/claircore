@@ -7,11 +7,11 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/internal/vulnstore"
-	"github.com/quay/claircore/libvuln/driver"
-	"github.com/quay/claircore/pkg/pep440"
-	"github.com/quay/claircore/test"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/internal/vulnstore"
+	"github.com/Panzer1119/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore/pkg/pep440"
+	"github.com/Panzer1119/claircore/test"
 )
 
 func TestGetQueryBuilderDeterministicArgs(t *testing.T) {

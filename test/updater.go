@@ -11,9 +11,9 @@ import (
 
 	"github.com/quay/goval-parser/oval"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/libvuln/driver"
-	"github.com/quay/claircore/pkg/ovalutil"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore/pkg/ovalutil"
 )
 
 var _ driver.Updater = (*updater)(nil)

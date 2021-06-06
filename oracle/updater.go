@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/quay/claircore/libvuln/driver"
-	"github.com/quay/claircore/pkg/ovalutil"
+	"github.com/Panzer1119/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore/pkg/ovalutil"
 )
 
 const (

@@ -6,7 +6,7 @@ import (
 
 	"github.com/jackc/pgx/v4/pgxpool"
 
-	"github.com/quay/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore/internal/indexer"
 )
 
 var _ indexer.Store = (*store)(nil)

@@ -3,7 +3,7 @@ package alpine
 import (
 	"fmt"
 
-	"github.com/quay/claircore"
+	"github.com/Panzer1119/claircore"
 )
 
 // Alpine linux has patch releases but their security database

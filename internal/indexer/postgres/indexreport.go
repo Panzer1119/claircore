@@ -10,7 +10,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"github.com/quay/claircore"
+	"github.com/Panzer1119/claircore"
 )
 
 var (

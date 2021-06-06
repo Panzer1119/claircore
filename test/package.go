@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/quay/claircore"
+	"github.com/Panzer1119/claircore"
 )
 
 // GenDuplicatePackages creates an array of packages with duplicates. the array

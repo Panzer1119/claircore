@@ -3,7 +3,7 @@ package debian
 import (
 	"context"
 
-	"github.com/quay/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore/libvuln/driver"
 )
 
 var debianReleases = []Release{

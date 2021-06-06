@@ -12,8 +12,8 @@ import (
 	_ "github.com/jackc/pgx/v4/stdlib" // Needed for sql.Open
 	"github.com/remind101/migrate"
 
-	"github.com/quay/claircore/libindex/migrations"
-	"github.com/quay/claircore/test/integration"
+	"github.com/Panzer1119/claircore/libindex/migrations"
+	"github.com/Panzer1119/claircore/test/integration"
 )
 
 func TestDatabase(ctx context.Context, t testing.TB) *pgxpool.Pool {

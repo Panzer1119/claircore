@@ -8,7 +8,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/quay/claircore/pkg/fastesturl"
+	"github.com/Panzer1119/claircore/pkg/fastesturl"
 )
 
 // Server sets up two testing servers, returning the two status codes in order.

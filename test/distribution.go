@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/pkg/cpe"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/pkg/cpe"
 )
 
 func WFN(i int) cpe.WFN {

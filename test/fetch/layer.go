@@ -16,8 +16,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/test/integration"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/test/integration"
 )
 
 const (

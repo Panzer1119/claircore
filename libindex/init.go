@@ -9,9 +9,9 @@ import (
 	_ "github.com/jackc/pgx/v4/stdlib"
 	"github.com/remind101/migrate"
 
-	"github.com/quay/claircore/internal/indexer"
-	"github.com/quay/claircore/internal/indexer/postgres"
-	"github.com/quay/claircore/libindex/migrations"
+	"github.com/Panzer1119/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore/internal/indexer/postgres"
+	"github.com/Panzer1119/claircore/libindex/migrations"
 )
 
 // initialize a indexer.Store given libindex.Opts

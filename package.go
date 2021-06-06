@@ -1,6 +1,6 @@
 package claircore
 
-import "github.com/quay/claircore/pkg/cpe"
+import "github.com/Panzer1119/claircore/pkg/cpe"
 
 type Package struct {
 	// unique ID of this package. this will be created as discovered by the library

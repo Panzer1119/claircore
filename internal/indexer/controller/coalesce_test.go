@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/quay/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore/internal/indexer"
 )
 
 // TestCoalesce confirms when no error is encountered

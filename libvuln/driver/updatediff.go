@@ -5,7 +5,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/quay/claircore"
+	"github.com/Panzer1119/claircore"
 )
 
 type UpdateKind string

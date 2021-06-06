@@ -9,8 +9,8 @@ import (
 
 	"github.com/quay/zlog"
 
-	"github.com/quay/claircore/internal/vulnstore"
-	"github.com/quay/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore/internal/vulnstore"
+	"github.com/Panzer1119/claircore/libvuln/driver"
 )
 
 // Controller is the interface that updater Controllers implement.

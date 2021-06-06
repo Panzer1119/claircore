@@ -3,7 +3,7 @@ package indexer
 import (
 	"context"
 
-	"github.com/quay/claircore"
+	"github.com/Panzer1119/claircore"
 )
 
 // LayerScanner is an interface for scanning a set of layer's contents and indexing

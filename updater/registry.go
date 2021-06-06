@@ -13,7 +13,7 @@ import (
 
 	"github.com/quay/zlog"
 
-	"github.com/quay/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore/libvuln/driver"
 )
 
 var pkg = struct {

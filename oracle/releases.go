@@ -1,6 +1,6 @@
 package oracle
 
-import "github.com/quay/claircore"
+import "github.com/Panzer1119/claircore"
 
 // Oracle Linux has minor releases such as 7.7 and 6.10
 // however their elsa OVAL xml sec db always references the major release

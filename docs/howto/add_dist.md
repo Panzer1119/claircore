@@ -151,5 +151,5 @@ At this point, you have implemented all the necessary components to integrate yo
 If you struggle with the design phase or are getting stuck at the implementation phases do not hesitate to reach out to us. Here are some links:
 
 [Clair SIG](https://groups.google.com/g/clair-dev?pli=1)
-[Github Issues](https://github.com/quay/claircore)
+[Github Issues](https://github.com/Panzer1119/claircore)
 [RedHat Issues](https://issues.redhat.com/projects/PROJQUAY)

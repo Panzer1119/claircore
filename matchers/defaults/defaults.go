@@ -6,17 +6,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/quay/claircore/alpine"
-	"github.com/quay/claircore/aws"
-	"github.com/quay/claircore/debian"
-	"github.com/quay/claircore/libvuln/driver"
-	"github.com/quay/claircore/matchers/registry"
-	"github.com/quay/claircore/oracle"
-	"github.com/quay/claircore/photon"
-	"github.com/quay/claircore/python"
-	"github.com/quay/claircore/rhel"
-	"github.com/quay/claircore/suse"
-	"github.com/quay/claircore/ubuntu"
+	"github.com/Panzer1119/claircore/alpine"
+	"github.com/Panzer1119/claircore/aws"
+	"github.com/Panzer1119/claircore/debian"
+	"github.com/Panzer1119/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore/matchers/registry"
+	"github.com/Panzer1119/claircore/oracle"
+	"github.com/Panzer1119/claircore/photon"
+	"github.com/Panzer1119/claircore/python"
+	"github.com/Panzer1119/claircore/rhel"
+	"github.com/Panzer1119/claircore/suse"
+	"github.com/Panzer1119/claircore/ubuntu"
 )
 
 var (

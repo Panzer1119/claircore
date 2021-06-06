@@ -7,10 +7,10 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/quay/zlog"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/internal/indexer"
-	"github.com/quay/claircore/test"
-	"github.com/quay/claircore/test/integration"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore/test"
+	"github.com/Panzer1119/claircore/test/integration"
 )
 
 // mockScnr is a kind-agnostic scanner we will

@@ -10,9 +10,9 @@ import (
 	"go.opentelemetry.io/otel/baggage"
 	"go.opentelemetry.io/otel/label"
 
-	"github.com/quay/claircore/internal/vulnstore/postgres"
-	"github.com/quay/claircore/libvuln/driver"
-	"github.com/quay/claircore/libvuln/jsonblob"
+	"github.com/Panzer1119/claircore/internal/vulnstore/postgres"
+	"github.com/Panzer1119/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore/libvuln/jsonblob"
 )
 
 // OfflineImport takes the format written into the io.Writer provided to

@@ -11,8 +11,8 @@ import (
 	"go.opentelemetry.io/otel/baggage"
 	"go.opentelemetry.io/otel/label"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/pkg/ovalutil"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/pkg/ovalutil"
 )
 
 func (u *Updater) Parse(ctx context.Context, r io.ReadCloser) ([]*claircore.Vulnerability, error) {

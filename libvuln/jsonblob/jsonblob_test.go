@@ -9,8 +9,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/test"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/test"
 )
 
 func TestStore(t *testing.T) {

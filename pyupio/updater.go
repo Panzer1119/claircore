@@ -19,9 +19,9 @@ import (
 	"go.opentelemetry.io/otel/baggage"
 	"go.opentelemetry.io/otel/label"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/libvuln/driver"
-	"github.com/quay/claircore/pkg/tmp"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore/pkg/tmp"
 )
 
 const defaultURL = `https://github.com/pyupio/safety-db/archive/master.tar.gz`

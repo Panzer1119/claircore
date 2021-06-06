@@ -8,7 +8,7 @@ import (
 	"go.opentelemetry.io/otel/baggage"
 	"go.opentelemetry.io/otel/label"
 
-	"github.com/quay/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore/internal/indexer"
 )
 
 func checkManifest(ctx context.Context, s *Controller) (State, error) {

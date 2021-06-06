@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/quay/claircore/libvuln/driver"
-	"github.com/quay/claircore/python"
+	"github.com/Panzer1119/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore/python"
 )
 
 func UpdaterSet(_ context.Context) (driver.UpdaterSet, error) {

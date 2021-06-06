@@ -3,7 +3,7 @@ package driver
 import (
 	"context"
 
-	"github.com/quay/claircore"
+	"github.com/Panzer1119/claircore"
 )
 
 // RemoteMatcher is an additional interface that a Matcher can implement.

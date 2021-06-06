@@ -15,7 +15,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/quay/claircore/internal/indexer/fetcher"
+	"github.com/Panzer1119/claircore/internal/indexer/fetcher"
 )
 
 type unpackConfig struct {

@@ -17,11 +17,11 @@ import (
 	"github.com/quay/zlog"
 	"github.com/remind101/migrate"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/internal/indexer"
-	"github.com/quay/claircore/libindex/migrations"
-	"github.com/quay/claircore/test"
-	"github.com/quay/claircore/test/integration"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore/libindex/migrations"
+	"github.com/Panzer1119/claircore/test"
+	"github.com/Panzer1119/claircore/test/integration"
 )
 
 // Testcase is a test case for calling libindex.

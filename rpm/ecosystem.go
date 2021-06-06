@@ -3,12 +3,12 @@ package rpm
 import (
 	"context"
 
-	"github.com/quay/claircore/aws"
-	"github.com/quay/claircore/internal/indexer"
-	"github.com/quay/claircore/internal/indexer/linux"
-	"github.com/quay/claircore/oracle"
-	"github.com/quay/claircore/photon"
-	"github.com/quay/claircore/suse"
+	"github.com/Panzer1119/claircore/aws"
+	"github.com/Panzer1119/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore/internal/indexer/linux"
+	"github.com/Panzer1119/claircore/oracle"
+	"github.com/Panzer1119/claircore/photon"
+	"github.com/Panzer1119/claircore/suse"
 )
 
 // NewEcosystem provides the set of scanners and coalescers for the rpm ecosystem

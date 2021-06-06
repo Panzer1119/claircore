@@ -11,9 +11,9 @@ import (
 
 	"github.com/quay/zlog"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/internal/indexer"
-	"github.com/quay/claircore/test"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore/test"
 )
 
 // Custom TestMain to hook the TMPDIR environment variable.

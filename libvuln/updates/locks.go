@@ -8,8 +8,8 @@ import (
 
 	"github.com/jackc/pgx/v4/pgxpool"
 
-	"github.com/quay/claircore/pkg/distlock"
-	"github.com/quay/claircore/pkg/distlock/postgres"
+	"github.com/Panzer1119/claircore/pkg/distlock"
+	"github.com/Panzer1119/claircore/pkg/distlock/postgres"
 )
 
 var _ LockSource = (*poolLockSource)(nil)

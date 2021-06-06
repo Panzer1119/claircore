@@ -9,8 +9,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/quay/zlog"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/internal/indexer"
 )
 
 // TestControllerIndexError confirms the state machines does the correct

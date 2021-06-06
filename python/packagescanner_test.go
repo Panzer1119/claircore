@@ -5,9 +5,9 @@ import (
 	"path"
 	"testing"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/python"
-	"github.com/quay/claircore/test"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/python"
+	"github.com/Panzer1119/claircore/test"
 )
 
 // TestScan runs the python scanner over some layers known to have python

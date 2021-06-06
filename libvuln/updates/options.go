@@ -3,7 +3,7 @@ package updates
 import (
 	"time"
 
-	"github.com/quay/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore/libvuln/driver"
 )
 
 // ManagerOption specify optional configuration for a Manager.

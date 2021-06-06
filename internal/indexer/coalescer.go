@@ -3,7 +3,7 @@ package indexer
 import (
 	"context"
 
-	"github.com/quay/claircore"
+	"github.com/Panzer1119/claircore"
 )
 
 // layerArifact aggregates the any artifacts found within a layer

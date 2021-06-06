@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/quay/claircore"
+	"github.com/Panzer1119/claircore"
 )
 
 // Updater is an aggregate interface combining the method set of a Fetcher and a Parser

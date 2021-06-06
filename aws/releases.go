@@ -3,8 +3,8 @@ package aws
 import (
 	"fmt"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/pkg/cpe"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/pkg/cpe"
 )
 
 type Release string

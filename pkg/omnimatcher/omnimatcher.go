@@ -3,14 +3,14 @@ package omnimatcher
 import (
 	"context"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/alpine"
-	"github.com/quay/claircore/aws"
-	"github.com/quay/claircore/debian"
-	"github.com/quay/claircore/libvuln/driver"
-	"github.com/quay/claircore/python"
-	"github.com/quay/claircore/rhel"
-	"github.com/quay/claircore/ubuntu"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/alpine"
+	"github.com/Panzer1119/claircore/aws"
+	"github.com/Panzer1119/claircore/debian"
+	"github.com/Panzer1119/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore/python"
+	"github.com/Panzer1119/claircore/rhel"
+	"github.com/Panzer1119/claircore/ubuntu"
 )
 
 // defaultOmniMatcher is the default implementation

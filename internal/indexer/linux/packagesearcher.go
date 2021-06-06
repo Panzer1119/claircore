@@ -1,8 +1,8 @@
 package linux
 
 import (
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/internal/indexer"
 )
 
 // PackageSearcher tracks the layer's hash and index a package

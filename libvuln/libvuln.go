@@ -10,13 +10,13 @@ import (
 	"go.opentelemetry.io/otel/baggage"
 	"go.opentelemetry.io/otel/label"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/internal/matcher"
-	"github.com/quay/claircore/internal/vulnstore"
-	"github.com/quay/claircore/internal/vulnstore/postgres"
-	"github.com/quay/claircore/libvuln/driver"
-	"github.com/quay/claircore/libvuln/updates"
-	"github.com/quay/claircore/matchers"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/internal/matcher"
+	"github.com/Panzer1119/claircore/internal/vulnstore"
+	"github.com/Panzer1119/claircore/internal/vulnstore/postgres"
+	"github.com/Panzer1119/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore/libvuln/updates"
+	"github.com/Panzer1119/claircore/matchers"
 )
 
 // Libvuln exports methods for scanning an IndexReport and created

@@ -11,13 +11,13 @@ import (
 
 	"github.com/quay/zlog"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/internal/matcher"
-	vulnstore "github.com/quay/claircore/internal/vulnstore/postgres"
-	"github.com/quay/claircore/libvuln/driver"
-	"github.com/quay/claircore/libvuln/updates"
-	"github.com/quay/claircore/test"
-	"github.com/quay/claircore/test/integration"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/internal/matcher"
+	vulnstore "github.com/Panzer1119/claircore/internal/vulnstore/postgres"
+	"github.com/Panzer1119/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore/libvuln/updates"
+	"github.com/Panzer1119/claircore/test"
+	"github.com/Panzer1119/claircore/test/integration"
 )
 
 func TestMatcherIntegration(t *testing.T) {

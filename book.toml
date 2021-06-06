@@ -10,4 +10,4 @@ build-dir = "book"
 create-missing = true
 
 [output.html]
-git-repository-url= "https://github.com/quay/claircore"
+git-repository-url= "https://github.com/Panzer1119/claircore"

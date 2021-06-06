@@ -3,7 +3,7 @@ package indexer
 import (
 	"context"
 
-	"github.com/quay/claircore"
+	"github.com/Panzer1119/claircore"
 )
 
 // PackageScanner provides an interface for unique identification or a PackageScanner

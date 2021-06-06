@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/quay/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore/libvuln/driver"
 )
 
 func UpdaterSet(_ context.Context) (driver.UpdaterSet, error) {

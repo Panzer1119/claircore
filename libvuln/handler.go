@@ -10,9 +10,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/quay/zlog"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/libvuln/driver"
-	je "github.com/quay/claircore/pkg/jsonerr"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/libvuln/driver"
+	je "github.com/Panzer1119/claircore/pkg/jsonerr"
 )
 
 var _ http.Handler = (*HTTP)(nil)

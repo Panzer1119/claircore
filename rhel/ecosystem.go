@@ -3,8 +3,8 @@ package rhel
 import (
 	"context"
 
-	"github.com/quay/claircore/internal/indexer"
-	"github.com/quay/claircore/rpm"
+	"github.com/Panzer1119/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore/rpm"
 )
 
 // NewEcosystem provides the set of scanners and coalescers for the rhel ecosystem

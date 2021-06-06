@@ -10,9 +10,9 @@ import (
 	"go.opentelemetry.io/otel/baggage"
 	"go.opentelemetry.io/otel/label"
 
-	"github.com/quay/claircore/libvuln/driver"
-	_ "github.com/quay/claircore/matchers/defaults"
-	"github.com/quay/claircore/matchers/registry"
+	"github.com/Panzer1119/claircore/libvuln/driver"
+	_ "github.com/Panzer1119/claircore/matchers/defaults"
+	"github.com/Panzer1119/claircore/matchers/registry"
 )
 
 type Configs map[string]driver.MatcherConfigUnmarshaler

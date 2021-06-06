@@ -11,9 +11,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/internal/vulnstore"
-	"github.com/quay/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/internal/vulnstore"
+	"github.com/Panzer1119/claircore/libvuln/driver"
 )
 
 var _ vulnstore.Updater = (*Store)(nil)

@@ -3,7 +3,7 @@ package java
 import (
 	"context"
 
-	"github.com/quay/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore/internal/indexer"
 )
 
 var scanners = []indexer.PackageScanner{&Scanner{}}

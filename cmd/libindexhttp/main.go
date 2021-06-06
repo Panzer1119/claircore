@@ -11,7 +11,7 @@ import (
 	"github.com/quay/zlog"
 	"github.com/rs/zerolog"
 
-	"github.com/quay/claircore/libindex"
+	"github.com/Panzer1119/claircore/libindex"
 )
 
 // Config this struct is using the goconfig library for simple flag and env var

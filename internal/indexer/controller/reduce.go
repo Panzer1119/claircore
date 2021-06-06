@@ -3,8 +3,8 @@ package controller
 import (
 	"context"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/internal/indexer"
 )
 
 // reduce determines which layers should be fetched/scanned and returns these layers

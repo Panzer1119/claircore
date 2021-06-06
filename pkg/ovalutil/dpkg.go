@@ -10,7 +10,7 @@ import (
 	"go.opentelemetry.io/otel/baggage"
 	"go.opentelemetry.io/otel/label"
 
-	"github.com/quay/claircore"
+	"github.com/Panzer1119/claircore"
 )
 
 // DpkgDefsToVulns iterates over the definitions in an oval root and assumes DpkgInfo objects and states.

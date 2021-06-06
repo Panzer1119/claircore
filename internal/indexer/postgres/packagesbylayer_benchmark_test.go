@@ -6,10 +6,10 @@ import (
 
 	"github.com/quay/zlog"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/test"
-	"github.com/quay/claircore/test/integration"
-	pgtest "github.com/quay/claircore/test/postgres"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/test"
+	"github.com/Panzer1119/claircore/test/integration"
+	pgtest "github.com/Panzer1119/claircore/test/postgres"
 )
 
 func Benchmark_PackagesByLayer(b *testing.B) {

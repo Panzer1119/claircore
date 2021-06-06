@@ -16,8 +16,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/test/fetch"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/test/fetch"
 )
 
 type layerserver struct {

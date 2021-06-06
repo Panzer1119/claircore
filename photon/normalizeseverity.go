@@ -1,6 +1,6 @@
 package photon
 
-import "github.com/quay/claircore"
+import "github.com/Panzer1119/claircore"
 
 const (
 	Low       = "Low"

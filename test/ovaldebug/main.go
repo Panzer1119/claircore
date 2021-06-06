@@ -17,11 +17,11 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/debian"
-	"github.com/quay/claircore/pkg/ovalutil"
-	"github.com/quay/claircore/rhel"
-	"github.com/quay/claircore/ubuntu"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/debian"
+	"github.com/Panzer1119/claircore/pkg/ovalutil"
+	"github.com/Panzer1119/claircore/rhel"
+	"github.com/Panzer1119/claircore/ubuntu"
 )
 
 func main() {

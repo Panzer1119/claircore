@@ -1,7 +1,7 @@
 package matchers
 
 import (
-	"github.com/quay/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore/libvuln/driver"
 )
 
 // WithEnabled configures the Matchers to only run the specified

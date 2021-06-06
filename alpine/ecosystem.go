@@ -3,8 +3,8 @@ package alpine
 import (
 	"context"
 
-	"github.com/quay/claircore/internal/indexer"
-	"github.com/quay/claircore/internal/indexer/linux"
+	"github.com/Panzer1119/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore/internal/indexer/linux"
 )
 
 // NewEcosystem provides the set of scanners and coalescers for the alpine ecosystem

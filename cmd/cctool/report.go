@@ -21,7 +21,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/quay/claircore"
+	"github.com/Panzer1119/claircore"
 )
 
 const (

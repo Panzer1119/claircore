@@ -20,12 +20,12 @@ import (
 	"go.opentelemetry.io/otel/baggage"
 	"go.opentelemetry.io/otel/label"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/internal/indexer"
-	"github.com/quay/claircore/pkg/cpe"
-	"github.com/quay/claircore/rhel/containerapi"
-	"github.com/quay/claircore/rhel/contentmanifest"
-	"github.com/quay/claircore/rhel/repo2cpe"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore/pkg/cpe"
+	"github.com/Panzer1119/claircore/rhel/containerapi"
+	"github.com/Panzer1119/claircore/rhel/contentmanifest"
+	"github.com/Panzer1119/claircore/rhel/repo2cpe"
 )
 
 // RepoCPEUpdater provides interface for providing a mapping

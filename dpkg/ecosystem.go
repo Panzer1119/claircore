@@ -3,10 +3,10 @@ package dpkg
 import (
 	"context"
 
-	"github.com/quay/claircore/debian"
-	"github.com/quay/claircore/internal/indexer"
-	"github.com/quay/claircore/internal/indexer/linux"
-	"github.com/quay/claircore/ubuntu"
+	"github.com/Panzer1119/claircore/debian"
+	"github.com/Panzer1119/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore/internal/indexer/linux"
+	"github.com/Panzer1119/claircore/ubuntu"
 )
 
 // NewEcosystem provides the set of scanners and coalescers for the dpkg ecosystem

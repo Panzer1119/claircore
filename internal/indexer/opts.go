@@ -3,7 +3,7 @@ package indexer
 import (
 	"net/http"
 
-	"github.com/quay/claircore/pkg/distlock"
+	"github.com/Panzer1119/claircore/pkg/distlock"
 )
 
 // Opts are options to instantiate a indexer

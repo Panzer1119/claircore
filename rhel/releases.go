@@ -1,8 +1,8 @@
 package rhel
 
 import (
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/pkg/cpe"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/pkg/cpe"
 )
 
 // RHEL has minor releases however their security database files are bundled together

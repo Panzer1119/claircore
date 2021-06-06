@@ -1,6 +1,6 @@
 package suse
 
-import "github.com/quay/claircore"
+import "github.com/Panzer1119/claircore"
 
 // Suse has service pack releases however their security database files are bundled together
 // by major version. for example `SUSE Linux Enterprise Server 15 (all Service Packs) - suse.linux.enterprise.server.15.xml`

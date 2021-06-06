@@ -14,10 +14,10 @@ import (
 	"go.opentelemetry.io/otel/label"
 	"golang.org/x/sync/semaphore"
 
-	"github.com/quay/claircore/internal/vulnstore"
-	"github.com/quay/claircore/libvuln/driver"
-	"github.com/quay/claircore/pkg/distlock"
-	"github.com/quay/claircore/updater"
+	"github.com/Panzer1119/claircore/internal/vulnstore"
+	"github.com/Panzer1119/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore/pkg/distlock"
+	"github.com/Panzer1119/claircore/updater"
 )
 
 const (

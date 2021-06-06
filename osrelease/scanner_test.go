@@ -10,9 +10,9 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/quay/zlog"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/pkg/cpe"
-	"github.com/quay/claircore/test/fetch"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/pkg/cpe"
+	"github.com/Panzer1119/claircore/test/fetch"
 )
 
 type parsecase struct {

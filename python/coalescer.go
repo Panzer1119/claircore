@@ -3,8 +3,8 @@ package python
 import (
 	"context"
 
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/internal/indexer"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/internal/indexer"
 )
 
 func NewCoalescer(_ context.Context) (indexer.Coalescer, error) {

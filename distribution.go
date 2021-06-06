@@ -1,6 +1,6 @@
 package claircore
 
-import "github.com/quay/claircore/pkg/cpe"
+import "github.com/Panzer1119/claircore/pkg/cpe"
 
 // Distribution is the accompanying system context of a package. this
 // information aides in CVE detection.

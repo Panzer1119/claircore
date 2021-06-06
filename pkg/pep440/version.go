@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/quay/claircore"
+	"github.com/Panzer1119/claircore"
 )
 
 var pattern *regexp.Regexp

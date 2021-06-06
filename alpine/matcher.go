@@ -4,8 +4,8 @@ import (
 	"context"
 
 	version "github.com/knqyf263/go-apk-version"
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/libvuln/driver"
 )
 
 type Matcher struct{}

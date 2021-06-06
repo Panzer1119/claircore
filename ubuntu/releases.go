@@ -1,7 +1,7 @@
 package ubuntu
 
 import (
-	"github.com/quay/claircore"
+	"github.com/Panzer1119/claircore"
 )
 
 type Release string

@@ -6,7 +6,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/quay/claircore"
+	"github.com/Panzer1119/claircore"
 )
 
 // RandomHash returns a random Digest.

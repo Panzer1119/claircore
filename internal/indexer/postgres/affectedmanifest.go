@@ -16,8 +16,8 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
-	"github.com/quay/claircore"
-	"github.com/quay/claircore/pkg/omnimatcher"
+	"github.com/Panzer1119/claircore"
+	"github.com/Panzer1119/claircore/pkg/omnimatcher"
 )
 
 var (

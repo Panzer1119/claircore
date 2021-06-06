@@ -1,12 +1,12 @@
-package rhel // import "github.com/quay/claircore/rhel"
+package rhel // import "github.com/Panzer1119/claircore/rhel"
 
 import (
 	"fmt"
 	"net/http"
 	"net/url"
 
-	"github.com/quay/claircore/libvuln/driver"
-	"github.com/quay/claircore/pkg/ovalutil"
+	"github.com/Panzer1119/claircore/libvuln/driver"
+	"github.com/Panzer1119/claircore/pkg/ovalutil"
 )
 
 // We currently grab the oval databases db distro-wise.
